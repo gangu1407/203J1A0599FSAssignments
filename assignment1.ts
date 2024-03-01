@@ -54,7 +54,12 @@ class Car
 
  function reversearray(arr)
  {
-    return arr.reverse();
+     var arr1:number[]=[];
+     for(var i=arr.length-1;i>=0;i--)
+     {
+       arr1.push(arr.pop());  
+     }  
+    return arr1;
  }
 
  var displayinfo= new Car();
