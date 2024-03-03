@@ -57,7 +57,7 @@ class Car
      var arr1:number[]=[];
      for(var i=arr.length-1;i>=0;i--)
      {
-       arr1.push(arr.pop());  
+       arr1.push(arr[i]);  
      }  
     return arr1;
  }
